@@ -3,6 +3,7 @@
     background-color: rgb(86, 85, 85);
 }
 .navbar-brand{
+    height: 40px;
     font-size: medium;
     color: white;
 }
@@ -10,26 +11,25 @@
     background-color: rgb(229, 227, 227);
     margin-top: 30px;
 }
+.col{
+    text-align: left;
+}
+p {
+    padding-bottom: 25px;
+}
+
 .container{
 margin-top: 15px;
+display: block;
 }
+
 .card{
     width: 18rem;
     height: 30rem;
 }
-img{
-    height: 10rem;
-    
+#call-to{
+    position: left;
 }
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+img{
+    height: 50%;
+}
