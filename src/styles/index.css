@@ -19,12 +19,11 @@ p {
 }
 
 .container{
-margin-top: 15px;
-display: block;
+    margin-top: 15px;
+    display: block;
 }
 
 .card{
-    width: 18rem;
     height: 30rem;
 }
 #call-to{
@@ -32,4 +31,7 @@ display: block;
 }
 img{
     height: 50%;
+}
+row>* {
+    width: none;
 }

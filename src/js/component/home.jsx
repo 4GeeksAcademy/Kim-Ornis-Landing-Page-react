@@ -33,7 +33,7 @@ const Home = () => {
 			</div>
 		</div><br></br>
 		<div className="row">
-			<div className="col">
+			<div className="col" style= {{width:'18rem'}}>
 				<div className="card" style= {{width:'18rem'}}>
 					<img src="https://www.w3schools.com/images/w3schools_green.jpg" class="card-img-top" alt="..."/>
 					<div className="card-body">
@@ -43,7 +43,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<div className="col">
+			<div className="col" style= {{width:'18rem'}}>
 				<div className="card" style= {{width:'18rem'}}>
 						<img src="https://www.w3schools.com/images/w3schools_green.jpg" class="card-img-top" alt="..."/>
 						<div className="card-body">
@@ -53,7 +53,7 @@ const Home = () => {
 						</div>
 				</div>
 			</div>
-			<div claclassNamess="col">
+			<div claclassName="col" style= {{width:'18rem'}}>
 				<div className="card" style= {{width:'18rem'}}>
 					<img src="https://www.w3schools.com/images/w3schools_green.jpg" class="card-img-top" alt="..."/>
 					<div className="card-body">
@@ -63,7 +63,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<div className="col">
+			<div className="col" style= {{width:'18rem'}}>
 				<div className="card" style= {{width:'18rem'}}>
 					<img src="https://www.w3schools.com/images/w3schools_green.jpg" class="card-img-top" alt="..."/>
 					<div className="card-body">
@@ -80,9 +80,14 @@ const Home = () => {
   		<div className="container-fluid mt-3">
     	<a className="navbar-brand" href="#">Copyright @ Your Website 2024</a>
   	</div>
-</nav>
+	</nav>
 	</>
 	);
 };
 
 export default Home;
+
+
+
+
+
