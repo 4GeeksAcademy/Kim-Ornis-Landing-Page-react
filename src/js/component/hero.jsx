@@ -1,8 +1,11 @@
 import React from "react";
 
-export function Hero(){
+export function Hero(props){
 
+    const {nflUrl,} = props;
+    
     return(
+  
         <div className="container">
             <div className="container text-center">
                 <div className="row">
@@ -13,7 +16,7 @@ export function Hero(){
                                 It uses utility classes for typography and spacing to space content out within the larger container.
                             </p>
                             <p className="lead">
-                                <a className="btn btn-primary btn-lg" id="call-to" href="#" role="button">Call to Action</a>
+                                <a className="btn btn-primary btn-lg" id="nflBtn" href={props.nflUrl} role="button">NFL.com</a>
                             </p>
                         </div>
                     </div>
